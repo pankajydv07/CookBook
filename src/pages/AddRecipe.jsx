@@ -54,7 +54,7 @@ export default function AddRecipe() {
         </div>
 
         {/* Form */}
-        <form onSubmit={submit} className="bg-white rounded-3xl shadow-card p-8 space-y-6">
+        <form onSubmit={submit} className="bg-gradient-to-br from-primary-50/80 to-accent-50/80 backdrop-blur-sm rounded-3xl shadow-card p-8 space-y-6 border border-primary-100">
           {/* Title */}
           <div>
             <label className="flex items-center gap-2 text-sm font-semibold text-neutral-700 mb-3">

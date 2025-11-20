@@ -57,7 +57,7 @@ export default function Favorites() {
           </div>
 
           {!loading && (
-            <div className="bg-white rounded-2xl shadow-card p-4 mt-6 inline-flex items-center gap-3">
+            <div className="bg-gradient-to-r from-primary-50/80 to-accent-50/80 backdrop-blur-sm rounded-2xl shadow-card p-4 mt-6 inline-flex items-center gap-3 border border-primary-100">
               <span className="text-neutral-600 font-medium">Total Favorites:</span>
               <span className="bg-gradient-warm text-white px-4 py-2 rounded-lg font-bold text-lg">
                 {favRecipes.length}
@@ -75,7 +75,7 @@ export default function Favorites() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="bg-white rounded-3xl shadow-card p-12 text-center"
+            className="bg-gradient-to-br from-primary-50/80 to-accent-50/80 backdrop-blur-sm rounded-3xl shadow-card p-12 text-center border border-primary-100"
           >
             <div className="bg-neutral-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6">
               <FaSearch className="text-neutral-400 text-4xl" />

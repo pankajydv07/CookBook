@@ -27,7 +27,7 @@ export default function Signup() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-neutral-50 to-primary-50 flex items-center justify-center p-4">
-      <div className="max-w-md w-full bg-white rounded-2xl shadow-card hover:shadow-card-hover transition-shadow p-8">
+      <div className="max-w-md w-full bg-gradient-to-br from-primary-50/80 to-accent-50/80 backdrop-blur-sm rounded-2xl shadow-card hover:shadow-card-hover transition-shadow p-8 border border-primary-100">
         <h1 className="text-3xl font-bold mb-2 bg-gradient-warm bg-clip-text text-transparent">Create Account</h1>
         <p className="text-neutral-600 mb-6">Join thousands of food lovers sharing recipes</p>
 

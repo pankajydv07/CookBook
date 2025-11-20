@@ -26,7 +26,7 @@ export default function Login() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-neutral-50 to-primary-50 flex items-center justify-center p-4">
-      <div className="max-w-md w-full bg-white rounded-2xl shadow-card hover:shadow-card-hover transition-shadow p-8">
+      <div className="max-w-md w-full bg-gradient-to-br from-primary-50/80 to-accent-50/80 backdrop-blur-sm rounded-2xl shadow-card hover:shadow-card-hover transition-shadow p-8 border border-primary-100">
         <h1 className="text-3xl font-bold mb-6 bg-gradient-warm bg-clip-text text-transparent">Login</h1>
         <form onSubmit={onSubmit} className="space-y-4">
           <div>

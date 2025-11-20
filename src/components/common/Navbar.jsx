@@ -7,7 +7,7 @@ export default function Navbar() {
   const navigate = useNavigate()
 
   return (
-    <header className="sticky top-0 z-40 bg-white shadow-sm border-b border-neutral-200">
+    <header className="sticky top-0 z-40 bg-gradient-to-r from-primary-50 to-accent-50 shadow-sm border-b border-primary-100">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 text-primary-600 font-bold text-2xl hover:text-primary-700 transition-colors">
           <FaBookOpen className="text-3xl" />

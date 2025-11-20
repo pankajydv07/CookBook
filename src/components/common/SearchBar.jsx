@@ -13,7 +13,7 @@ export default function SearchBar({ onSearch }) {
   }
 
   return (
-    <form onSubmit={submit} className="bg-white rounded-2xl shadow-card p-4">
+    <form onSubmit={submit} className="bg-gradient-to-r from-primary-50/80 to-accent-50/80 backdrop-blur-sm rounded-2xl shadow-card p-4 border border-primary-100">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
         <div className="relative">
           <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-neutral-400" />

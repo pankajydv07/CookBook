@@ -122,7 +122,7 @@ export default function RecipeDetail() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-white rounded-3xl shadow-card overflow-hidden"
+          className="bg-gradient-to-br from-primary-50/80 to-accent-50/80 backdrop-blur-sm rounded-3xl shadow-card overflow-hidden border border-primary-100"
         >
           {/* Hero Image */}
           <div className="relative h-96 overflow-hidden">
