@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "demo@cookbook.app",
+      "password": "demo123"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Classic Pancakes",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "1 cup flour",
+        "2 tbsp sugar",
+        "1 egg",
+        "1 cup milk",
+        "1 tsp baking powder"
+      ],
+      "steps": [
+        "Mix dry ingredients.",
+        "Whisk in egg and milk.",
+        "Cook on griddle until bubbles form."
+      ],
+      "time": 20,
+      "authorId": 0,
+      "cuisine": "American",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Margherita Pizza",
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Mozzarella",
+        "Basil",
+        "Olive oil"
+      ],
+      "steps": [
+        "Spread sauce",
+        "Add cheese",
+        "Bake",
+        "Top with basil"
+      ],
+      "time": 30,
+      "authorId": 0,
+      "cuisine": "Italian",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "Butter Chicken",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Chicken",
+        "Butter",
+        "Tomato",
+        "Cream",
+        "Spices"
+      ],
+      "steps": [
+        "Marinate",
+        "Cook sauce",
+        "Simmer chicken"
+      ],
+      "time": 45,
+      "authorId": 0,
+      "cuisine": "Indian",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "title": "Veg Biryani",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Basmati rice",
+        "Mixed veg",
+        "Spices",
+        "Yogurt"
+      ],
+      "steps": [
+        "Parboil rice",
+        "Layer with veg",
+        "Dum cook"
+      ],
+      "time": 60,
+      "authorId": 0,
+      "cuisine": "Indian",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "title": "Chicken Biryani",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Chicken",
+        "Basmati rice",
+        "Spices",
+        "Onion"
+      ],
+      "steps": [
+        "Marinate",
+        "Cook chicken",
+        "Layer biryani"
+      ],
+      "time": 70,
+      "authorId": 0,
+      "cuisine": "Indian",
+      "featured": true
+    },
+    {
+      "id": "6",
+      "title": "Caesar Salad",
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Romaine",
+        "Croutons",
+        "Parmesan",
+        "Caesar dressing"
+      ],
+      "steps": [
+        "Chop",
+        "Toss",
+        "Serve"
+      ],
+      "time": 10,
+      "authorId": 0,
+      "cuisine": "American",
+      "featured": true
+    },
+    {
+      "id": "7",
+      "title": "Paneer Tikka",
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Paneer",
+        "Yogurt",
+        "Spices",
+        "Bell peppers"
+      ],
+      "steps": [
+        "Marinate",
+        "Skewer",
+        "Grill"
+      ],
+      "time": 35,
+      "authorId": 0,
+      "cuisine": "Indian",
+      "featured": true
+    },
+    {
+      "id": "8",
+      "title": "Grilled Salmon",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Salmon",
+        "Lemon",
+        "Garlic",
+        "Olive oil"
+      ],
+      "steps": [
+        "Season",
+        "Grill",
+        "Serve"
+      ],
+      "time": 20,
+      "authorId": 0,
+      "cuisine": "Mediterranean",
+      "featured": true
+    },
+    {
+      "id": "9",
+      "title": "Spaghetti Carbonara",
+      "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Spaghetti",
+        "Eggs",
+        "Pancetta",
+        "Parmesan"
+      ],
+      "steps": [
+        "Cook pasta",
+        "Mix eggs and cheese",
+        "Combine with pancetta",
+        "edited"
+      ],
+      "time": 25,
+      "authorId": 0,
+      "cuisine": "Italian",
+      "featured": true
+    },
+    {
+      "id": "10",
+      "title": "Tacos al Pastor",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "Pork",
+        "Pineapple",
+        "Tortillas",
+        "Onion",
+        "Cilantro"
+      ],
+      "steps": [
+        "Marinate",
+        "Grill",
+        "Assemble tacos"
+      ],
+      "time": 40,
+      "authorId": 0,
+      "cuisine": "Mexican",
+      "featured": true
+    },
+    {
+      "id": "f616",
+      "title": "Pulihora",
+      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80&auto=format&fit=crop",
+      "ingredients": [
+        "LEMON",
+        "RICE",
+        "TAMARING"
+      ],
+      "steps": [
+        "BOIL RICE",
+        "ADD TAMARING WATER",
+        "COOK",
+        "ADD LEMON",
+        "SAVOUR IT",
+        "eidt"
+      ],
+      "time": 20,
+      "cuisine": "Indian",
+      "authorId": "1"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1",
+      "userId": 1,
+      "recipeId": 1
+    },
+    {
+      "id": "e919",
+      "userId": "1",
+      "recipeId": 2
+    },
+    {
+      "id": "371c",
+      "userId": "1",
+      "recipeId": 3
+    },
+    {
+      "id": "c4e9",
+      "userId": "1",
+      "recipeId": "ext-780000"
+    },
+    {
+      "id": "7b60",
+      "userId": "1",
+      "recipeId": "ext-650377"
+    },
+    {
+      "id": "877a",
+      "userId": "1",
+      "recipeId": "ext-663050"
+    },
+    {
+      "id": "be0f",
+      "userId": "1",
+      "recipeId": 6
+    },
+    {
+      "id": "8a74",
+      "userId": "1",
+      "recipeId": 5
+    },
+    {
+      "id": "4dc6",
+      "userId": "1",
+      "recipeId": "1"
+    },
+    {
+      "id": "e449",
+      "userId": "1",
+      "recipeId": "3"
+    },
+    {
+      "id": "c79d",
+      "userId": "1",
+      "recipeId": "8"
+    },
+    {
+      "id": "20c3",
+      "userId": "1",
+      "recipeId": "ext-642540"
+    }
+  ]
+}

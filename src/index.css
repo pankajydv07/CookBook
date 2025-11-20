@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --book-bg: #fffdfa;
+}
+
+html, body, #root { height: 100%; }
+
+.book-perspective { perspective: 1600px; }
+.book-page {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+.book-shadow {
+  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}

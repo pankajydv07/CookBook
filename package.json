@@ -1,0 +1,30 @@
+{
+  "name": "cookbook50",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "json-server": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "framer-motion": "^11.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-pageflip": "^2.0.3",
+    "react-router-dom": "^6.26.2",
+    "react-toastify": "^10.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "json-server": "^1.0.0-beta.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.8"
+  }
+}
